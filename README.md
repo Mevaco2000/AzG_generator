@@ -1,7 +1,6 @@
 # Generator Zadań (Streamlit)
 
-Generator zadań z algebry liniowej i liczb zespolonych z platformy Ruda Wiedzy, przeniesiony do jednego
-pliku w Streamlit. Nie potrzebuje serwera ani innych plików, wystarczy `generator_streamlit.py`.
+Generator zadań z algebry liniowej i liczb zespolonych.
 
 ## Uruchomienie
 
@@ -9,9 +8,11 @@ pliku w Streamlit. Nie potrzebuje serwera ani innych plików, wystarczy `generat
 pip install -r requirements.txt
 streamlit run generator_streamlit.py
 ```
+## Link do strony
+'''
+https://azggenerator-5kliu5fiquhkp8esrgcglg.streamlit.app
+'''
 
-Aplikacja otworzy się w przeglądarce (domyślnie http://localhost:8501). Adres `?zadanie=ID`, np.
-`http://localhost:8501/?zadanie=9`, od razu wybiera zadanie o danym numerze.
 
 ## Możliwości
 
